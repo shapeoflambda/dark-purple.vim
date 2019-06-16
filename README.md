@@ -40,3 +40,6 @@ colorscheme dark-purple
 # Contributing
 
 This is my first time creating a vim colorscheme, so, I'm sure it's not going to be perfect. Please send pull requests for missing features or bug fixes, I'll be more than happy to merge it in.
+
+# Link
+[vimcolors](https://vimcolors.com/962/dark_purple/dark)
