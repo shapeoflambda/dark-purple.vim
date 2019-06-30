@@ -66,8 +66,9 @@ highlight SpellCap       guifg=#F9F9FF guibg=#192224 guisp=#192224 gui=underline
 highlight SpellLocal     guifg=#F9F9FF guibg=#192224 guisp=#192224 gui=underline ctermfg=189  ctermbg=235  cterm=underline
 highlight SpellRare      guifg=#F9F9FF guibg=#192224 guisp=#192224 gui=underline ctermfg=189  ctermbg=235  cterm=underline
 highlight Statement      guifg=#caa34e guibg=NONE    guisp=NONE    gui=bold      ctermfg=179  ctermbg=NONE cterm=bold
+highlight StatusLineNC   guifg=#d0d0d9 guibg=#383540 guisp=#202340 gui=bold      ctermfg=253  ctermbg=238  cterm=bold
+highlight StatusLine     guifg=#d0d0d9 guibg=#282840 guisp=#202340 gui=bold      ctermfg=253  ctermbg=238  cterm=bold
 highlight WildMenu       guifg=#d0d0d9 guibg=#713a91 guisp=#713a91 gui=bold      ctermfg=253  ctermbg=97   cterm=bold
-highlight StatusLineNC   guifg=#d0d0d9 guibg=#202340 guisp=#202340 gui=bold      ctermfg=253  ctermbg=238  cterm=bold
 highlight StorageClass   guifg=#8899e3 guibg=NONE    guisp=NONE    gui=bold      ctermfg=60   ctermbg=NONE cterm=bold
 highlight String         guifg=#62a362 guibg=NONE    guisp=NONE    gui=NONE      ctermfg=71   ctermbg=NONE cterm=NONE
 highlight Structure      guifg=#8899e3 guibg=NONE    guisp=NONE    gui=bold      ctermfg=60   ctermbg=NONE cterm=bold
