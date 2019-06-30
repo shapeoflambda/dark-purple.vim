@@ -86,7 +86,6 @@ highlight cursorim       guifg=#192224 guibg=#8899e3 guisp=#8899e3 gui=NONE     
 highlight! link Error        ErrorMsg
 highlight! link Exception    ErrorMsg
 
-highlight! link StatusLine   Normal
 highlight! link WildMenu     PmenuSel
 highlight! link CursorLineNr Normal
 highlight! link MatchParen   Search
