@@ -26,10 +26,43 @@ Add the following lines to the `~/.vimrc`
 syntax enable
 colorscheme dark-purple
 ```
+### Lightline theme
+There's also a lightline theme that goes well with this theme. To use it, add the following to your `.vimrc`
+
+```vim
+call plug#begin('~/.vim/plugged')
+
+Plug 'shapeoflambda/dark-purple.vim'
+Plug 'itchyny/lightline.vim'
+
+call plug#end()
+
+syntax enable
+set termguicolors
+
+" Always show lightline
+set laststatus=2
+let g:lightline = {
+      \ 'colorscheme': 'dark_purple',
+      \ 'active': {
+      \   'left': [ [ 'mode', 'paste' ],
+      \             ['readonly', 'filename', 'modified' ] ],
+      \   'right': [ [ 'lineinfo' ],
+      \              [ 'filetype' ],
+      \              [ 'gitbranch'] ]
+      \ },
+      \ 'component_function': {
+      \   'gitbranch': 'fugitive#head'
+      \ },
+      \ }
+colorscheme dark_purple
+```
+
+> Make sure lightline is loaded after the theme is loaded.
 
 # Screenshot
 
-![screenshot](screenshot.png "Editing a sample go file")
+![screenshot](img/screenshot.png "Editing a sample go file")
 
 | Terminal     | Alacritty     |
 | --------     | ---------     |
@@ -37,6 +70,8 @@ colorscheme dark-purple
 | Font-Italic  | Operator Mono |
 | File/Syntax  | go            |
 
+## Lightline theme
+![lightline](img/lightline_theme.png)
 # Contributing
 
 This is my first time creating a vim colorscheme, so, I'm sure it's not going to be perfect. Please send pull requests for missing features or bug fixes, I'll be more than happy to merge it in.
