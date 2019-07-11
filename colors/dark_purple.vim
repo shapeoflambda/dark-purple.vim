@@ -22,6 +22,7 @@ highlight Conditional    guifg=#e78b6f guibg=NONE    guisp=NONE    gui=NONE     
 highlight Constant       guifg=#e78b6f guibg=NONE    guisp=NONE    gui=NONE      ctermfg=174  ctermbg=NONE cterm=NONE
 highlight Cursor         guifg=#192224 guibg=#F9F9F9 guisp=#F9F9F9 gui=NONE      ctermfg=235  ctermbg=15   cterm=NONE
 highlight CursorColumn   guifg=NONE    guibg=#222E30 guisp=#222E30 gui=NONE      ctermfg=NONE ctermbg=236  cterm=NONE
+highlight ColorColumn    guifg=NONE    guibg=#222E30 guisp=#222E30 gui=NONE      ctermfg=NONE ctermbg=236  cterm=NONE
 highlight CursorLine     guifg=NONE    guibg=#222E30 guisp=#222E30 gui=NONE      ctermfg=NONE ctermbg=236  cterm=NONE
 highlight Debug          guifg=#e78b6f guibg=NONE    guisp=NONE    gui=NONE      ctermfg=1    ctermbg=NONE cterm=NONE
 highlight Define         guifg=#e78b6f guibg=NONE    guisp=NONE    gui=NONE      ctermfg=1    ctermbg=NONE cterm=NONE
