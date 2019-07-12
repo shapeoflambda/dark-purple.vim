@@ -18,14 +18,16 @@ Plug 'shapeoflambda/dark-purple.vim'
 ```vim
 NeoBundle 'shapeoflambda/dark-purple.vim'
 ```
+
 ## Using the Colorscheme
 
 Add the following lines to the `~/.vimrc`
 
 ```vim
 syntax enable
-colorscheme dark-purple
+colorscheme dark_purple
 ```
+
 ### Lightline theme
 There's also a lightline theme that goes well with this theme. To use it, add the following to your `.vimrc`
 
@@ -72,6 +74,7 @@ colorscheme dark_purple
 
 ## Lightline theme
 ![lightline](img/lightline_theme.png)
+
 # Contributing
 
 This is my first time creating a vim colorscheme, so, I'm sure it's not going to be perfect. Please send pull requests for missing features or bug fixes, I'll be more than happy to merge it in.
